@@ -85,4 +85,20 @@ final List<TaskModel> dummyTasks = [
       'Write the reflection paragraph',
     ],
   ),
+
+  // --latihan push (ikam)--
+  TaskModel(
+    title: 'History essay draft',
+    description: 'Draft the essay for HIST 202.',
+    category: 'HIST 202 · Essay',
+    deadline: _seedDeadline(6, 12, 0),
+    createdAt: _seedCreatedAt(6),
+    priority: TaskPriority.medium,
+    reminderEnabled: true,
+    subtasks: [
+      'Research primary sources',
+      'Outline the essay structure',
+      'Write the first draft',
+    ],
+  ),
 ];
