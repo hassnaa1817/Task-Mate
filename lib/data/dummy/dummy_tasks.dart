@@ -71,4 +71,18 @@ final List<TaskModel> dummyTasks = [
       'Write the reflection paragraph',
     ],
   ),
+  TaskModel(
+    title: 'Programming assignment 3',
+    description: 'Complete the programming assignment for CS 101.',
+    category: 'CS 101 · Assignment',
+    deadline: _seedDeadline(5, 15, 0),
+    createdAt: _seedCreatedAt(5),
+    priority: TaskPriority.high,
+    reminderEnabled: true,
+    subtasks: [
+      'Read the assigned chapter',
+      'Note three key arguments',
+      'Write the reflection paragraph',
+    ],
+  ),
 ];
