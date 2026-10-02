@@ -72,7 +72,7 @@ final List<TaskModel> dummyTasks = [
     ],
   ),
   TaskModel(
-    title: 'Programming assignment 3',
+    title: 'Programming assignment submission',
     description: 'Complete the programming assignment for CS 101.',
     category: 'CS 101 · Assignment',
     deadline: _seedDeadline(5, 15, 0),
