@@ -101,4 +101,19 @@ final List<TaskModel> dummyTasks = [
       'Write the first draft',
     ],
   ),
+
+  TaskModel(
+    title: 'Artificial Intelligence project proposal',
+    description: 'Draft the project proposal for CS 201.',
+    category: 'CS 201 · Project',
+    deadline: _seedDeadline(6, 12, 0),
+    createdAt: _seedCreatedAt(6),
+    priority: TaskPriority.medium,
+    reminderEnabled: true,
+    subtasks: [
+      'Research primary sources',
+      'Outline the essay structure',
+      'Write the first draft',
+    ],
+  ),
 ];
