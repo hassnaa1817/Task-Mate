@@ -102,8 +102,9 @@ final List<TaskModel> dummyTasks = [
     ],
   ),
 
+
   TaskModel(
-    title: 'Artificial Intelligence project proposal',
+    title: 'mobile app development',
     description: 'Draft the project proposal for CS 201.',
     category: 'CS 201 · Project',
     deadline: _seedDeadline(6, 12, 0),
